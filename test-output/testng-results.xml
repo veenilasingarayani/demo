@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T14:23:18 EDT" name="Default suite" finished-at="2023-05-05T14:23:18 EDT" duration-ms="64">
+    <groups>
+      <group name="regression">
+        <method signature="TestNGGrouping.test3()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test3" class="mavenprojects.newtestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.test4()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test4" class="mavenprojects.newtestng.TestNGGrouping"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNGGrouping.test2()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test2" class="mavenprojects.newtestng.TestNGGrouping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNGGrouping.test1()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test1" class="mavenprojects.newtestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.test2()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test2" class="mavenprojects.newtestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.test3()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" name="test3" class="mavenprojects.newtestng.TestNGGrouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-05-05T14:23:18 EDT" name="Default test" finished-at="2023-05-05T14:23:18 EDT" duration-ms="64">
+      <class name="mavenprojects.newtestng.TestNGGrouping">
+        <test-method signature="test1()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" started-at="2023-05-05T14:23:18 EDT" name="test1" finished-at="2023-05-05T14:23:18 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" started-at="2023-05-05T14:23:18 EDT" name="test2" finished-at="2023-05-05T14:23:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" started-at="2023-05-05T14:23:18 EDT" name="test3" finished-at="2023-05-05T14:23:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:mavenprojects.newtestng.TestNGGrouping@f736069]" started-at="2023-05-05T14:23:18 EDT" name="test4" finished-at="2023-05-05T14:23:18 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- mavenprojects.newtestng.TestNGGrouping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
